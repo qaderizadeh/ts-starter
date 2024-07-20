@@ -1,0 +1,11 @@
+onBoot = "nix-shell -p unzip --command 'curl -fsSL https://bun.sh/install | bash'"
+
+[env]
+PATH = "$PATH:~/.bun/bin"
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
