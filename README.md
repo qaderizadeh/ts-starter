@@ -1,4 +1,4 @@
-# thirdexcitablesourcecode
+# ts-starter
 
 To install dependencies:
 
